@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from "react";
+import trainingVideo from "../assets/training.mp4";
 
 /* ---------- Reusable Hook (per element) ---------- */
 function useInView(options = { threshold: 0.15 }) {
@@ -254,7 +255,7 @@ export default function Training() {
 
         <div className="training-video-card">
           <video
-            src="/src/assets/training.mp4"
+            src={trainingVideo}
             loop
             muted
             autoPlay

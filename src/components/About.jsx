@@ -1,4 +1,6 @@
 import { useEffect, useRef, useState } from "react";
+import image2 from "../assets/image2.jpeg";
+import image5 from "../assets/image5.jpeg";
 
 export default function About() {
   const containerRef = useRef(null);
@@ -39,10 +41,10 @@ export default function About() {
 
         <div className="about-images">
           <div className="about-image-card">
-            <img src="/src/assets/image2.jpeg" alt="Security Team" />
+            <img src={image2} alt="Security Team" />
           </div>
           <div className="about-image-card">
-            <img src="/src/assets/image5.jpeg" alt="Security Operations" />
+            <img src={image5} alt="Security Operations" />
           </div>
         </div>
       </div>

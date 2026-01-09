@@ -1,10 +1,9 @@
 import { useEffect, useState, useRef } from "react";
+import cctv from "../assets/cctv.png";
+import hero1 from "../assets/hero1.jpg";
+import image3 from "../assets/image3.jpeg";
 
-const images = [
-  "/src/assets/cctv.png",
-  "/src/assets/hero1.jpg",
-  "/src/assets/image3.jpeg",
-];
+const images = [cctv, hero1, image3];
 
 export default function Hero() {
   const [current, setCurrent] = useState(0);
