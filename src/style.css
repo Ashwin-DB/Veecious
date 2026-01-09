@@ -187,7 +187,7 @@ body {
 .sidebar a:hover,
 .sidebar a.active {
   background: #1609a2;
-  color: #222;
+  color: #efefef;
   border-radius: 4px;
 }
 
