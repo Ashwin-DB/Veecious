@@ -58,7 +58,7 @@ export default function Contact() {
   ];
 
   return (
-    <section id="contact" className="section-light">
+    <section id="contact" className="section-dark">
       <div ref={containerRef} className="container contact-container">
         <h2 className={`section-title ${visible ? "slide-up" : ""}`}>
           Contact <span className="accent">Us</span>
